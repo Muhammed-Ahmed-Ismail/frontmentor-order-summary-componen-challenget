@@ -44,7 +44,7 @@ figure#main-img img
     border-radius: 25px 25px 0 0;
     margin-bottom: 50px;
 }
-h1#order-summ
+h3#order-summ
 {
     font-size: 24px;
     font-weight: 900;
@@ -87,6 +87,17 @@ section#price-img #price
     flex-direction: column;
     justify-content: center;
     gap: 5px;
+    color:#778099 ;
+}
+section#price-img #price p#annual-p
+{
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+}
+
+a#change
+{
+    font-size: 15px;
 }
 a#change:hover
 {
