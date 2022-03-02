@@ -1,0 +1,123 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html
+{
+    height: 100vh;
+}
+body
+{
+    height: 100%;
+    background-image: url("../images/pattern-background-desktop.svg");
+    background-color: hsl(225, 100%, 94%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top;
+    background-size: 100% 40%;
+
+}
+section#contaier
+{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+section#card
+{
+    background-color: white;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    border-radius: 25px;
+    font-family: 'Red Hat Display', sans-serif;
+}
+figure#main-img img
+{
+    border-radius: 25px 25px 0 0;
+    margin-bottom: 50px;
+}
+h1#order-summ
+{
+    font-size: 24px;
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+}
+p#offer-p
+{
+    width: 60%;
+    text-align: center;
+    margin: 25px;
+    color:#778099;
+    font-weight: 400;
+}
+section#price-sec
+{
+    background-color: hsl(225, 100%, 98%);
+    display: flex;
+    justify-items: stretch;
+    gap: 100px;
+    align-items: center;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 25px;
+    width: 80%;
+}
+section#price-img
+{
+    display: flex;
+    gap: 20px;
+
+}
+section#price-img img
+{
+    width: 45px;
+    height: 45px;
+}
+section#price-img #price
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+a#change:hover
+{
+    cursor: pointer;
+    color: hsl(245, 83%, 68%);
+    text-decoration: none;
+}
+section#proceed-btn
+{
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    padding: 15px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    box-shadow: 0 10px 10px #ddd8f9 ;
+}
+section#proceed-btn:hover
+{
+background-color: hsl(245, 83%, 68%);
+    cursor: pointer;
+}
+h4#cancel-order
+{
+    margin-bottom: 30px;
+    color: #778099;
+}
+h4#cancel-order:hover
+{
+    color: hsl(223, 47%, 23%);
+    cursor: pointer;
+}
